@@ -38,6 +38,7 @@ public class Main {
      */
     private static void startClient() throws ConnectException {
         out.println("Waiting for Server");
+
         PlayerClient playerClient = new PlayerClient();
         playerClient.startClient();
     }
